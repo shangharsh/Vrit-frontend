@@ -3,8 +3,8 @@
     padding: 0;
 }
 
-table, tr, td, th{
-    border: 1px solid black;
+table{
+    background-color: rgb(250, 228, 228);
 }
 
 table{
@@ -16,13 +16,18 @@ section{
     justify-content: center;
 }
 
-.yellowcolor, .greycolor, .greencolor, .redcolor{
+tr:nth-child(even){
+    background-color: grey;
+
+}
+
+/* .yellowcolor, .greycolor, .greencolor, .redcolor{
     width: 20px;
     height: 20px;
     display: inline-block;
-}
+} */
 
-.yellow-color{
+/* .yellow-color{
     background-color: rgb(255, 255, 0);
 }
 
@@ -36,4 +41,4 @@ section{
 
 .red-color{
     background-color: red;
-}
+} */
