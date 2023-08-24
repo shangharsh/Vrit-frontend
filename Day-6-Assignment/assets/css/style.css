@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+}
+
+aside ul{
+    list-style: none;
+    padding-left: 20px;
+
+}
+
+aside ul a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+}
+
+aside{
+    width: 20vw;
+    height: 100vh;
+    background-color: #111111;
+}
+
+section{
+    display: flex;
+}
+
+.container{
+    width: 75vw;
+}
+
+.container h1{
+    font-size: 32px;
+    margin: 20px;
+}
+
+.contactus-container{
+    padding: 30px 20px;
+    margin: 0 20px;
+    background-color: aliceblue;
+    width: 100%;
+}
+
+.form-container{
+    display: flex;
+}
+
+.left-container, .right-container{
+    width: 50%;
+}
+
+.left-container div, .right-container div, button{
+    margin-top: 15px;
+}
+
+form label{
+    display: block;
+}
+
+form input, form textarea, form select, button{
+    width: 90%;
+    height: 30px;
+    padding-left: 10px;
+}
+
+form textarea{
+    /* padding: 10px; */
+}
+
+button{
+    background-color: rgb(11, 125, 170);
+    border: none;
+    color: white;
+    padding: 0px;
+}
