@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+}
+
+header{
+    width: 100vw;
+    height: 20vh;
+    background-color: rgb(40, 40, 40);
+    color: white;
+}
+
+.store-header{
+    height: 50%;
+    padding: 10px 0;
+}
+
+.store-header, nav, footer, nav ul, .grid-column-container, .grid-row{
+    display: grid;
+    place-items: center;
+}
+
+.nav-container{
+    background-color: rgb(70, 70, 70);
+    height: 35%;
+}
+
+nav ul{
+    list-style-type: none;
+    width: 40%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+section{
+    width: 100%;
+    height: 70vh;
+}
+
+.grid-column-container{
+    grid-template-columns: 1fr 1fr;
+    margin-top: 30px;
+    
+}
+
+.grid-column{
+    width: 90%;
+    box-shadow: 0 0 7px #111;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.grid-column p, .grid-column h3{
+    margin: 10px 0;
+}
+
+.grid-column button{
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: #111;
+    color: #fff;
+}
+
+.grid-column img{
+    width: 200px;
+    height: 200px;
+}
+
+.grid-row{
+    background-color: #eaeaea;
+    height: 100px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.grid-row button{
+    padding: 8px;
+    background-color: #111;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+footer{
+    width: 100%;
+    height: 5vh;
+    background-color: #111;
+    color: #fff;
+}
