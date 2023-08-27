@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Welcome to the Quiz App</title>
+    <link rel="stylesheet" href="main.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+<body>
+    <div class="quiz-app-container">
+
+        <!-- First page to start the quiz app.-->
+        <div class="start-quiz-container">
+            <button class="start-quiz-btn">Start Quiz</button>
+        </div>
+
+        <!-- Rules for playing the quiz app. -->
+        <div class="rules-quiz">
+            <h1 class="rules-heading">Some rules of this quiz </h1>
+            <ol type="1" class="rules-points">
+                <li>You will have only <span class="rules-timer"> 15 seconds</span> per each questions.</li>
+                <li>Once you select your answer it can't be undone.</li>
+                <li>You can't select any option once times goes off.</li>
+                <li>You can't exit from the quiz while you're plalying.</li>
+                <li>You will get points on the basis of your correct answers.</li>
+            </ol>
+            <button class="exit-quiz">Exit Quiz</button>
+            <button class="continue-quiz"> Continue</button>
+        </div>
+
+        <!-- Start playing the quiz app -->
+        <div class="quiz-container">
+            <div class="quiz-header">
+                <h1>Quiz Application</h1>
+                <p>Time left <span class="time-counter"> 15 </span></p>
+            <!-- <div class="time-line"></div>      -->
+            </div>    
+            <div class="questions-container">
+               <p class="question">1.
+                   <!-- <span>What does HTML stands for?</span> -->
+                </p>
+                <ol class="option-container">
+                    <!-- <li class="options">A. Hyper Text Markup Language. </li>
+                    <li class="options">B. Hyper Text Mechanism Language. </li>
+                    <li class="options">C. Hyper Text Mark Language. </li>
+                    <li class="options">D. Hyper Text Make Language. </li> -->
+                </ol>
+            </div>
+            <div class="questions-progress">
+                <div class="questions-counter">
+                  <!-- <span>X</span>of<span>Y</span> Questions. -->
+                </div>
+               <button class="next-quest">Next Questions</button>
+            </div>
+        </div>
+
+<!-- 
+        End of the quiz
+        <div class="quiz-message">
+            <h1>Congrats</h1>
+            <p>You've completed the quiz!</p>
+            <p>nice <img src="img/congrats.png" alt="Congrats"> <img src="img/tryagain.png" alt="tryagain"> you got <span>X</span> out of <span>Y</span>.</p>
+            <button>Replay Quiz</button>
+            <button>Quit Quiz</button>
+        </div> -->
+
+    </div>
+    <script src="main.js"></script>
+    <script src="questions.js"></script>
+</body>
+</html>
