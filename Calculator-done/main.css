@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    width: 45%;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.outputcontainer{
+    width: 100%;
+    height: 10vh;
+    text-align: right;
+    background-color: rgb(77, 77, 77);
+    color: white;
+    padding-right: 0.5rem;
+}
+
+.input{
+    font-size: 1.2rem;
+}
+
+.output{
+    font-size: 1.1rem;
+    padding-top: 0.6rem;
+}
+
+/*That display the content into equals four parts.*/
+.inputcontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+}
+
+button{
+    background-color: white;
+    border: none;
+    padding: 0.6rem 0.75rem;
+    margin: 0.3rem;
+}
+
+button:hover{
+    font-weight: bold;
+    cursor: pointer;
+    transition: ease .3s;
+}
+
+button:active{
+    background-color: black;
+    color: white;
+}
+
+#equal{
+    width: 400%;
+}
+
+/* @keyframes big{
+    0%{
+        font-size: 18px;
+    }
+    100%{
+        font-size: 30px;
+    }
+}
+
+@keyframes small{
+    0%{
+        font-size: 28px;
+    }
+    100%{
+        font-size: 18px;
+    }
+} */
