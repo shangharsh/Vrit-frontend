@@ -1,5 +1,4 @@
 let msg;
-let i;
 const number = prompt("Enter a Number to find out whether a given number is prime and even/odd.");
 const num = Number(number);
 
@@ -12,12 +11,15 @@ else{
 }
 
 //Checks Prime number or not
-for(i = 2; i <= num-1; i++){
-    if(num % i === 0){
+let isPrime = true;
+for(let j = 2; j < num; j++){
+    if(num % j === 0){
+        isPrime = false;
         break;
     }
 }
-if(num === i){
+
+if(isPrime){
     alert(`The Given Number ${num} is Prime and it is ${msg}.`);
 }
 else{
