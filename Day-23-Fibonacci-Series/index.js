@@ -8,7 +8,7 @@ fib.push(a);
 fib.push(b);
 
 const num = Number(prompt("Enter a number"))
-for(let i=2; i<num-1; i++){
+for(let i=2; i<num; i++){
     total = a + b;
     a = b;
     b = total;
