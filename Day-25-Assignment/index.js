@@ -22,13 +22,14 @@ if(number === 0){
 console.log(`Factorial of "${number}" is: "${fact}". `);
 
 //Calculate the average of numbers in an array.
-const array = [1,2,3,4];
+const array = [1,2,3,4,5];
 let sum = 0;
+const arrLen = array.length;
 array.forEach((num)=>{
     sum = sum + num;
 });
 
-const avg = sum/2;
+const avg = sum/arrLen;
 
 console.log(`The Average of numbers in an Array "${array}" is: "${avg}"`);
 
