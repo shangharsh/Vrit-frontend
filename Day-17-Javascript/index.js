@@ -2,6 +2,7 @@ const number = prompt("Enter a number");
 const num = Number(number);
 let msg;
 
+oddEven(num);
 function oddEven(i){
     if (i % 2 === 0) {
         msg = `The Number ${i} is even`;
@@ -28,9 +29,8 @@ function hasPrime(j, msg){
     }
 }
 
-for(let i = 5; i <= num -5; i++){
-    if(i % 5 === 0){
-        oddEven(i);
-    }
-}
+// for(let i = 5; i <= num -5; i++){
+//     if(i % 5 === 0){
+//     }
+// }
 

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Example</title>
+
+    <style>
+        .container {
+            border: 1px solid red;
+            width: 500px;
+            height: 600px;
+            margin: auto;
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+            
+        }
+        .left-container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .right-container{
+            display: flex;
+            justify-content: space-between;
+        }
+        .item{
+            border: 1px solid green;
+            width: 50px;
+            height: 100px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="left-container">
+            <div class="item1 item">Home</div>
+            <div class="item2 item">Contact</div>
+        </div>
+        
+        <div class="item3 item">About</div>
+
+        <div class="right-container">
+            <div class="item4 item">About</div>
+            <div class="item5 item">About</div>
+        </div>
+        
+    </div>
+    
+</body>
+</html>

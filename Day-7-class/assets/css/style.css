@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 10px;
+}
+
+@media only screen and (max-width: 576px){
+    .container{
+        background-color: red;
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px){
+    .container{
+        background-color: green;
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px){
+    .container{
+        background-color: blue;
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px){
+    .container{
+        background-color: purple;
+        font-size: 4rem;
+    }
+}
+
+@media only screen and (min-width: 1201px){
+    .container{
+        background-color: pink;
+        font-size: 5rem;
+    }
+}

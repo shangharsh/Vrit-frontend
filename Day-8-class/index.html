@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid, git</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            background-color: grey;
+            height: 100vh;
+            width: 100vw;
+            display: grid;
+            grid-template-rows: 48px 1fr 55px ;
+            grid-template-columns: repeat(3, 1fr);
+            column-gap: 10px;
+            row-gap: 10px;
+        }
+
+        .items{
+            background-color: aqua;
+            border: 1px solid #111;
+        }
+
+        .header{
+            grid-column-start: 2;
+            grid-column-end: 4;
+            background-color: red;
+        }
+        .sidebar{
+            grid-row-start: 1;
+            grid-row-end: 4;
+            background-color: green;
+        }
+        .content{
+            grid-column-start: 2;
+            grid-column-end: 4;
+            background-color: blue;
+        }
+        .footer{
+            grid-column-start: 2;
+            grid-column-end: 4;
+            background-color: purple;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item header">header</div>
+        <div class="item sidebar">sidebar</div>
+        <div class="item content">content</div>
+        <div class="item footer">footer</div>
+    </div>
+</body>
+</html>
